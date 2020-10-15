@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        .swiper-container {
+            width: 80%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .footer_text {
+            font-size: 12px;
+        }
+
+        .news_image {
+            width: 100%;
+            max-height: 40vh;
+            object-fit: cover;
+        }
+
+        @media only screen and (max-width: 600px) {
+            #discover {
+                font-size: 17px;
+            }
+
+            #myfeed {
+                font-size: 17px;
+            }
+
+            .fa-redo-alt {
+                font-size: 17px;
+            }
+
+            .swiper-container {
+                width: 100%;
+                height: 100vh;
+            }
+
+            .container {
+                width: 100%
+            }
+
+            h4 {
+                font-size: 20px;
+            }
+
+            #news_text {
+                font-size: 16px;
+            }
+
+
+        }
+
+        @media (min-width: 601px) and (max-width: 768px) {
+            #discover {
+                font-size: 18px;
+            }
+
+            #myfeed {
+                font-size: 18px;
+            }
+
+            .fa-redo-alt {
+                font-size: 18px;
+            }
+
+
+            .swiper-container {
+                width: 75%;
+                height: 100vh;
+            }
+
+            .container {
+                width: 70%;
+            }
+
+            h4 {
+                font-size: 25px;
+            }
+
+            #news_text {
+                font-size: 17px;
+            }
+
+
+        }
+
+        @media (min-width: 769px) and (max-width: 992px) {
+            #discover {
+                font-size: 19px;
+            }
+
+            #myfeed {
+                font-size: 19px;
+            }
+
+            .fa-redo-alt {
+                font-size: 19px;
+            }
+
+
+            .swiper-container {
+                width: 60%;
+                height: 100vh;
+            }
+
+            .container {
+                width: 60%;
+            }
+
+            h4 {
+                font-size: 25px;
+            }
+
+            #news_text {
+                font-size: 17px;
+            }
+
+
+        }
+
+        @media (min-width: 993px) {
+            #discover {
+                font-size: 20px;
+            }
+
+            #myfeed {
+                font-size: 20px;
+            }
+
+            .fa-redo-alt {
+                font-size: 20px;
+            }
+
+            .swiper-container {
+                width: 45%;
+                height: 100vh;
+            }
+
+            .container {
+                width: 50%;
+            }
+
+            h4 {
+                font-size: 25px;
+            }
+
+            #news_text {
+                font-size: 18px;
+            }
+
+        }
+    </style>
+
+    <title>Appointy Task</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row pt-2 px-1 d-flex align-items-center">
+            <div class="text-left col-4">
+                <p id="discover" class="m-auto"><a href="#"><i class="fas fa-chevron-left"></i> Discover</a></p>
+            </div>
+            <div class="text-center col-4">
+                <p id="myfeed" class="m-auto">My Feed</p>
+            </div>
+            <div class="text-right col-4">
+                <a href="#" class="m-auto"><i class="fas fa-redo-alt"></i></a>
+            </div>
+        </div>
+        <hr style="width: 50px; height: 3px;" class="rounded-pill my-1" color="black">
+    </div>
+    <div class="swiper-container" style="max-width: 1080px;">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide d-flex align-items-start">
+                <div class="slide-text text-left">
+                    <img class="news_image"
+                        src="https://www.aljazeera.com/wp-content/uploads/2020/10/000_8T2839.jpg?w=770&resize=770%2C513"
+                        alt="">
+                    <div class="px-3 pt-3">
+                        <h4>Many dead as record rains lash India’s Hyderabad and nearby areas.</h4>
+                        <p id="news_text">Indian media reports said the dead included a two-month-old infant.
+                            Three more people, an old couple and their grandson, were killed when their house collapsed
+                            during the downpour in a nearby village also on Tuesday night, local media reported.
+                            Daily life has been thrown out of gear across parts of Hyderabad as roads are flooded and
+                            vehicles washed away in several neighbourhoods.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide d-flex align-items-start">
+                <div class="slide-text text-left">
+                    <img class="news_image"
+                        src="https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2020/10/14/Pictures/president-chairman-former-satheesh-reddy-abdul-tributes_34760196-0de6-11eb-ad34-7b89fdec39d1.jpg"
+                        alt="">
+                    <div class="px-3 pt-3">
+                        <h4>DRDO chief says India can have complete missile system in 4-5 years</h4>
+                        <p id="news_text">Defence Research and Development Organisation (DRDO) chief G Satheesh Reddy on
+                            Wednesday expressed hope that within the next 4-5 years, the agency can help the Indian
+                            armed forces by developing a complete missile system. Speaking to ANI, Reddy said, “It will
+                            take probably about 4-5 years for us to work on all these things and realise a complete
+                            missile system, working for some good amount of range.”</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide d-flex align-items-start">
+                <div class="slide-text text-left">
+                    <img class="news_image"
+                        src="https://english.cdn.zeenews.com/sites/default/files/2020/10/13/892604-rail-970-a.jpg"
+                        alt="">
+                    <div class="px-3 pt-3">
+                        <h4>Indian Railways to run 392 special trains during festival season: Check full list</h4>
+                        <p id="news_text">The Indian Railways on Tuesday announced that it will operate 392 festival
+                            special trains between October 20 and November 30 in view of the upcoming festive season.
+                            The decision was taken as the national carrier is anticipating a passenger rush during the
+                            upcoming festive season, the Railway Ministry said in a statement.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <div class="container">
+            <div class="row w-100 d-flex justify-content-center">
+                <div class="col-4 text-center">
+                    <div><i class="far fa-question-circle"></i></div>
+                    <p class="footer_text m-0">Relevance</p>
+                </div>
+                <div class="col-4 text-center">
+                    <div><i class="fas fa-share-alt"></i></div>
+                    <p class="footer_text m-0">Share</p>
+                </div>
+                <div class="col-4 text-center">
+                    <div><i class="fas fa-bookmark"></i></div>
+                    <p class="footer_text m-0">Bookmark</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="./bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            direction: 'horizontal',
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>
